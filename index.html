@@ -11,13 +11,17 @@
 <body>
 
   <header>
-    <h1>Sky Parado</h1>
+    <h1 id="typewriter">Sky Parado</h1>
     <p class="header-subtitle">THE ARCHIVES</p>
     <p class="header-tagline">COMPUTER SCIENCE STUDENT &middot; LITERATURE ENJOYER &middot; THEORY ENTHUSIAST</p>
   </header>
 
   <nav>
-    <a href="projects.html">PROJECTS &amp; CERTIFICATIONS</a> &nbsp;&nbsp;
+    <a href="#about">ABOUT</a>
+    <a href="#media">MEDIA</a>
+    <a href="#contact">CONTACT</a>
+    <a href="projects.html">PROJECTS</a>
+    <a href="projects.html#certifications">CERTIFICATIONS</a>
   </nav>
 
   <hr />
@@ -26,7 +30,7 @@
     <h2>About Me</h2>
     <table>
       <tr>
-        <td class="about-bio" width="55%">
+        <td width="55%">
           <p>
             Hi! I'm <strong>Sky Parado</strong>, an ID 124 student here at De La Salle University.
             I am taking a Bachelor in Computer Science Major in Network and Information Security.
@@ -46,7 +50,7 @@
         </td>
 
         <td class="about-photo" width="45%" align="center">
-          <img src="Media/me.jpg" alt="Photo of Sky Parado" width="180" height="180" />
+          <img src="Media/me.jpg" alt="Photo of Sky Parado" />
 
           <br /><br />
 
@@ -74,11 +78,11 @@
   <section id="media">
     <h2>Media</h2>
 
-    <table class="media-grid">
+    <table>
       <tr>
 
-        <td class="media-photo" width="50%">
-          <h3 class="media-card-title">picture of fam</h3>
+        <td width="50%">
+          <h3>picture of fam</h3>
           <figure>
             <img src="Media/family.jpg" alt="Me, mommy, papa and my brother" width="250" />
             <figcaption>Me, mommy, papa and my brother!</figcaption>
@@ -86,7 +90,7 @@
         </td>
 
         <td width="50%">
-          <h3 class="media-card-title">song that represents me</h3>
+          <h3>song that represents me</h3>
           <p>
             <em>"Ripples"</em> by Beabadoobee &mdash; dreamy, melancholy and oddly hopeful.
             A song that reminds me that no matter how life changes, it's okay cause we change too.
@@ -100,10 +104,10 @@
       </tr>
     </table>
 
-    <table class="media-grid">
+    <table>
       <tr>
         <td>
-          <h3 class="media-card-title">hobbies</h3>
+          <h3>hobbies</h3>
           <ul class="hobby-list">
             <li><strong>Reading</strong> &mdash; I love to read and am obsessed with RomCom books.</li>
             <li><strong>Theories</strong> &mdash; Obsessed with film and game theories, especially stuff like TADC.</li>
@@ -133,13 +137,13 @@
         <legend>Your Details</legend>
 
         <label for="full-name">Full Name:</label><br>
-        <input type="text" id="full-name" name="full-name" placeholder="Sky Parado" required /><br><br>
+        <input type="text" id="full-name" name="full-name" placeholder="Juan Dela Cruz" required /><br><br>
 
         <label for="email">Email Address:</label><br>
-        <input type="email" id="email" name="email" placeholder="sky_parado@dlsu.edu.ph" required /><br><br>
+        <input type="email" id="email" name="email" placeholder="hello@example.com" required /><br><br>
 
         <label for="phone">Phone (optional):</label><br>
-        <input type="tel" id="phone" name="phone" placeholder="+63 976 244 7493" /><br><br>
+        <input type="tel" id="phone" name="phone" placeholder="+63 900 000 0000" /><br><br>
       </fieldset>
 
       <br>
@@ -173,13 +177,26 @@
     </form>
   </section>
 
-  <hr />
-
   <footer>
     <p>
       &copy; 2025 Sky Parado
     </p>
   </footer>
+
+  <script>
+    const title = document.getElementById("typewriter");
+    const name = "Sky Parado";
+    let letter = 0;
+
+    setInterval(function () {
+      title.textContent = name.substring(0, letter);
+      letter++;
+
+      if (letter > name.length + 6) {
+        letter = 0;
+      }
+    }, 180);
+  </script>
 
 </body>
 
