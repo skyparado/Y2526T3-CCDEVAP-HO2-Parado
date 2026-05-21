@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sky Parado – The Archives</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>Sky Parado</h1>
+    <p class="header-subtitle">THE ARCHIVES</p>
+    <p class="header-tagline">COMPUTER SCIENCE STUDENT &middot; LITERATURE ENJOYER &middot; THEORY ENTHUSIAST</p>
+  </header>
+
+  <nav>
+    <a href="projects.html">PROJECTS &amp; CERTIFICATIONS</a> &nbsp;&nbsp;
+  </nav>
+
+  <hr />
+
+  <section id="about">
+    <h2>About Me</h2>
+    <table>
+      <tr>
+        <td class="about-bio" width="55%">
+          <p>
+            Hi! I'm <strong>Sky Parado</strong>, an ID 124 student here at De La Salle University.
+            I am taking a Bachelor in Computer Science Major in Network and Information Security.
+            I'm originally from Cebu and moved here to Manila for University.
+          </p>
+          <p>
+            I love to read and consume different forms of media from books, to manga &amp; manhwa, movies,
+            shows, animes and kdramas. I also really love to play mystery games, specifically ones with a lot of
+            detective or mystery vibes. I love to travel and see different cultures, eat different foods and
+            explore different places. Aside from this, I'm either sleeping, eating or out with friends.
+          </p>
+          <p>
+            I am pretty ambitious and passionate about the things I do, I wear my heart on my sleeve.
+            I like to try different things and can be kind of intense when I'm serious about something.
+            My number one flaw is that I like to multitask, so I end up doing a lot of things at once.
+          </p>
+        </td>
+
+        <td class="about-photo" width="45%" align="center">
+          <img src="Media/me.jpg" alt="Photo of Sky Parado" width="180" height="180" />
+
+          <br /><br />
+
+          <table class="quick-facts">
+            <tr>
+              <td><strong>Degree</strong></td>
+              <td>BS Computer Science Major in Network and Information Security</td>
+            </tr>
+            <tr>
+              <td><strong>ID</strong></td>
+              <td>124 / 2nd Year</td>
+            </tr>
+            <tr>
+              <td><strong>Based in</strong></td>
+              <td>Ceb/Mnl, Philippines</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <hr />
+
+  <section id="media">
+    <h2>Media</h2>
+
+    <table class="media-grid">
+      <tr>
+
+        <td class="media-photo" width="50%">
+          <h3 class="media-card-title">picture of fam</h3>
+          <figure>
+            <img src="Media/family.jpg" alt="Me, mommy, papa and my brother" width="250" />
+            <figcaption>Me, mommy, papa and my brother!</figcaption>
+          </figure>
+        </td>
+
+        <td width="50%">
+          <h3 class="media-card-title">song that represents me</h3>
+          <p>
+            <em>"Ripples"</em> by Beabadoobee &mdash; dreamy, melancholy and oddly hopeful.
+            A song that reminds me that no matter how life changes, it's okay cause we change too.
+          </p>
+          <audio controls>
+            <source src="Media/music.mp3" type="audio/mpeg" />
+            <p>Your browser does not support audio. <a href="Media/music.mp3">Download</a> instead.</p>
+          </audio>
+        </td>
+
+      </tr>
+    </table>
+
+    <table class="media-grid">
+      <tr>
+        <td>
+          <h3 class="media-card-title">hobbies</h3>
+          <ul class="hobby-list">
+            <li><strong>Reading</strong> &mdash; I love to read and am obsessed with RomCom books.</li>
+            <li><strong>Theories</strong> &mdash; Obsessed with film and game theories, especially stuff like TADC.</li>
+            <li><strong>Traveling</strong> &mdash; I like to see different places, people, food and cultures.</li>
+            <li><strong>Photography</strong> &mdash; I like digicams, photobooths and anything to keep the memories.
+            </li>
+          </ul>
+          <p><em>A short clip of a broadway in NYC:</em></p>
+          <video controls width="480">
+            <source src="Media/Video.mp4" type="video/mp4" />
+            <p>Your browser does not support video. <a href="Media/Video.mp4">Download</a> instead.</p>
+          </video>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <hr />
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Fill out the form below and I'll get back to you as soon as I can!</p>
+
+    <form action="#" method="post">
+
+      <fieldset>
+        <legend>Your Details</legend>
+
+        <label for="full-name">Full Name:</label><br>
+        <input type="text" id="full-name" name="full-name" placeholder="Sky Parado" required /><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="sky_parado@dlsu.edu.ph" required /><br><br>
+
+        <label for="phone">Phone (optional):</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="+63 976 244 7493" /><br><br>
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Your Message</legend>
+
+        <label for="reason">Reason for reaching out:</label><br>
+        <select id="reason" name="reason">
+          <option value="">-- Select one --</option>
+          <option value="collab">Collaboration</option>
+          <option value="question">Question</option>
+          <option value="feedback">Feedback</option>
+          <option value="other">Other</option>
+        </select><br><br>
+
+        <label>Preferred contact method:</label><br>
+        <input type="radio" id="pref-email" name="pref-contact" value="email" checked />
+        <label for="pref-email">Email</label>&nbsp;&nbsp;
+        <input type="radio" id="pref-phone" name="pref-contact" value="phone" />
+        <label for="pref-phone">Phone</label><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="6" cols="50"
+          placeholder="Write your message here..."></textarea><br><br>
+      </fieldset>
+
+      <br>
+      <input type="submit" value="Send Message" />
+
+    </form>
+  </section>
+
+  <hr />
+
+  <footer>
+    <p>
+      &copy; 2025 Sky Parado
+    </p>
+  </footer>
+
+</body>
+
+</html>

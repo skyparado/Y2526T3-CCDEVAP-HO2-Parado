@@ -1,0 +1,204 @@
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5ede3;
+  color: #2c1810;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(to bottom, #2d0a3e, #c44a9b);
+  color: white;
+  text-align: center;
+  padding: 40px 20px 30px;
+}
+
+.header-subtitle {
+  font-size: 0.85rem;
+  letter-spacing: 0.3em;
+  color: #e8a4cf;
+}
+
+.header-tagline {
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  background-color: rgba(0, 0, 0, 0.25);
+  display: inline-block;
+  padding: 5px 15px;
+  margin-top: 8px;
+}
+
+nav {
+  text-align: center;
+  padding: 10px;
+  background-color: #faf6f0;
+  border-bottom: 1px solid #d4c5b5;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #2d0a3e;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #d4c5b5;
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+#about table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#about td {
+  padding: 10px;
+  vertical-align: top;
+}
+
+.quick-facts {
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  margin-top: 15px;
+}
+
+.quick-facts td {
+  padding: 5px 10px;
+  border: 1px solid #d4c5b5;
+}
+
+#media table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+#media td {
+  background-color: white;
+  border: 1px solid #d4c5b5;
+  border-radius: 6px;
+  padding: 20px;
+  text-align: center;
+  vertical-align: top;
+}
+
+figcaption {
+  font-size: 0.8rem;
+  color: #7a6b5d;
+  font-style: italic;
+}
+
+audio {
+  width: 100%;
+  max-width: 300px;
+}
+
+video {
+  max-width: 100%;
+}
+
+.projects-page-header {
+  background: linear-gradient(to right, #c44a9b, #d76db5, #c44a9b);
+  padding: 25px;
+}
+
+.projects-page-header h2 {
+  color: white;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+#projects table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+#projects td {
+  width: 50%;
+  background-color: white;
+  border: 1px solid #d4c5b5;
+  border-radius: 6px;
+  padding: 20px;
+  vertical-align: top;
+}
+
+#certifications table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+#certifications th {
+  background-color: #2d0a3e;
+  color: white;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+#certifications td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #d4c5b5;
+}
+
+#certifications tfoot td {
+  text-align: right;
+  font-style: italic;
+  color: #7a6b5d;
+}
+
+fieldset {
+  border: 1px solid #d4c5b5;
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+legend {
+  font-weight: bold;
+  color: #4a1564;
+  padding: 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  padding: 6px 10px;
+  border: 1px solid #d4c5b5;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4a1564;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.8rem;
+  color: #7a6b5d;
+  border-top: 1px solid #d4c5b5;
+}
+
+footer a {
+  color: #4a1564;
+}
