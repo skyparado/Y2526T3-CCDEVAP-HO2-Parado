@@ -40,7 +40,6 @@ nav a {
   margin: 0 10px;
   color: #2d0a3e;
   font-size: 0.8rem;
-  text-transform: uppercase;
 }
 
 section {
@@ -83,7 +82,6 @@ hr {
   border-collapse: separate;
   border-spacing: 10px;
 }
-
 #media td {
   background-color: white;
   border: 1px solid #d4c5b5;
@@ -139,7 +137,6 @@ video {
   border-collapse: collapse;
   font-size: 0.9rem;
 }
-
 #certifications th {
   background-color: #2d0a3e;
   color: white;
@@ -165,7 +162,6 @@ fieldset {
   margin-bottom: 10px;
   background-color: white;
 }
-
 legend {
   font-weight: bold;
   color: #4a1564;
@@ -197,8 +193,4 @@ footer {
   font-size: 0.8rem;
   color: #7a6b5d;
   border-top: 1px solid #d4c5b5;
-}
-
-footer a {
-  color: #4a1564;
 }
